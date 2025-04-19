@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+ul li{
+    font-size: 18px;
+    color: #2E2E2E;
+    font-weight: 400;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #D01C28;
+}
+
+.login-btn{
+    background-color: #cd242f;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.login-btn:hover{
+    color: #fff;
+    background-color: #ab0712;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    margin-left: 120px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+}
+.hero h1{
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+
+.main-para{
+    font-weight: 500;
+    max-width: 400px;
+}
+
+.buttons{
+    display: flex;
+    gap: 24px;
+}
+
+.shop-btn{
+    background-color: #cd242f;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.shop-btn:hover{
+    color: #fff;
+    background-color: #ab0712;
+}
+
+.category-btn{
+    background-color: #fff;
+    border: 2px solid #2E2E2E;
+    color: #2E2E2E;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.category-btn:hover{
+    color: #fff;
+    background-color: #876d6f;
+}
+
+.second-para{
+    font-size: 14px;
+}
+
+.company-images{
+    display: flex;
+    gap: 16px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/* .hero-image{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+} */
+.hero-img{
+    max-height: 400px;
+}
